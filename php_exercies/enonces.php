@@ -433,16 +433,16 @@ if ($chaine1 === $chaine2) {
 
 $note1 = 18;
 $note2 = 8;
-$note3 = 10;
+$note3 = 5;
 
 
 $moyenne = ($note1 + $note2 + $note3) / 3;
 
 
 if ($moyenne >= 10) {
-    echo "La moyenne est $moyenne. Félicitations, vous avez réussi l'examen !";
+    echo "Vous êtes admis";
 } else {
-    echo "La moyenne est $moyenne. Désolé, vous n'avez pas réussi l'examen.";
+    echo "Vous n'êtes pas admis";
 }
 
 /** Exercice 6 : Tester une variable indéfinie
